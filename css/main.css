@@ -1,0 +1,40 @@
+@media only screen and (min-width: 992px){
+    nav .brand-logo{
+        left: 45%;
+    }
+}
+nav .brand-logo{
+    font-size: 1.5rem;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+    color: #42a5f5;
+}
+
+h2.top{
+    margin-top: 0px;
+}
+
+.waves-block{
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.card .card-image img{
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.input-field input[type=search]{
+    height: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
